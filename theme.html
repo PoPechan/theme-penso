@@ -16,8 +16,8 @@
     <link href="{{ assets('css/style.css') }}" rel="stylesheet" />
     
     <!-- Twitter Cards -->
-   <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@{{ site.twitter }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@popechan">
     {% if post %}
     {% if post.type == 'post' or post.type == 'link' %}
     <meta name="twitter:title" content="{{ post.title }}">
@@ -30,7 +30,7 @@
     <meta name="twitter:description" content="{{ site.bio|striptags|truncate(255)|e }}...">
     {% endif %}
     {% endif %}
-    <meta name="twitter:creator" content="@{{ site.twitter }}">
+    <meta name="twitter:creator" content="@popechan">
     <meta name="twitter:image:src" content="{{ site.avatar }}">
     <meta name="twitter:domain" content="{{ site.base_url }}">
 
